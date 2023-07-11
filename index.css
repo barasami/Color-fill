@@ -1,0 +1,36 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box; 
+}
+.heading{
+    text-transform: capitalize;
+    color: rgb(44, 63, 5);
+    letter-spacing: .1em;
+}
+.alldata{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.head{
+    margin-bottom: .5em;
+}
+.fill{
+    margin-bottom: 1em;
+}
+.data{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    
+}
+.cfill{
+    height: 10em;
+    width: 10em;
+    border: 1px solid rgb(44, 63, 5);;
+    border-radius: 5px;
+}
