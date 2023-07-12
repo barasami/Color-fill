@@ -1,8 +1,14 @@
-const myclor=document.getElementsByClassName('cfill')
 
-console.log(myclor);
+//getting all classes with btn
+const mycolors=document.querySelectorAll(".btn")
 
+//looping through btns
 
-const clickedme=()=>{
-    console.log(1+1);
-}
+mycolors.forEach((mybtn)=>{
+    mybtn.addEventListener('click',(e)=>{
+        let colorchange=e.currentTarget.classList
+        if(colorchange.contains('black')){
+            
+        }
+    })
+})
